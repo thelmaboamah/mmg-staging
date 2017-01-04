@@ -28,20 +28,24 @@ nav {
   background: white;
   color: #8D4910;
   min-height: 4rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   display: flex;
   justify-content: center;
   align-items: center; }
   @media screen and (min-width: 544px) {
     nav {
-      font-size: 1.5rem; }
+      font-size: 1.4rem; }
       nav li {
         padding: 0 0.5rem; } }
   @media screen and (min-width: 992px) {
     nav {
-      font-size: 1.75rem; }
+      font-size: 1.5rem; }
       nav li {
         padding: 0 1rem; } }
+
+.dropdown-item {
+  font-size: 1.2rem;
+  color: #8D4910; }
 
 /*** HEADER ***/
 header {
@@ -178,10 +182,12 @@ form button {
     margin-bottom: .6rem; } }
 
 /***FOOTER *****/
-footer a {
-  color: #8D4910; }
-  footer a:hover {
-    color: #bb6115; }
+footer {
+  padding-bottom: 1rem; }
+  footer a {
+    color: #8D4910; }
+    footer a:hover {
+      color: #bb6115; }
 
 /*** Page header styles***/
 #blog {
