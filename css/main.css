@@ -54,21 +54,7 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 6rem 0;
-  background-image: url(../assets/pencil-lg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
-  header a {
-    color: #2E32A8; }
-    header a:hover {
-      color: #3f43ca; }
-  @media (max-width: 768px) {
-    header {
-      background-image: url(../assets/pencil-md.jpg); } }
-  @media (max-width: 544px) {
-    header {
-      background-image: url(../assets/pencil-sm.jpg); } }
+  padding: 6rem 0; }
   header h1 {
     font-size: 2.75rem;
     font-family: "Rouge Script", cursive;
@@ -109,13 +95,101 @@ header {
       header p {
         font-size: 2.05rem;
         line-height: 1.15; } }
-  header #modal-btn {
+
+#homepage {
+  background-image: url(../assets/pencil-lg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #homepage a {
+    color: #2E32A8; }
+    #homepage a:hover {
+      color: #3f43ca; }
+  @media (max-width: 768px) {
+    #homepage {
+      background-image: url(../assets/pencil-md.jpg); } }
+  @media (max-width: 544px) {
+    #homepage {
+      background-image: url(../assets/pencil-sm.jpg); } }
+  #homepage #modal-btn {
     margin-top: 1.5rem;
     margin-bottom: -1.5rem;
     background: #2E32A8;
     color: #fff; }
-    header #modal-btn:hover {
+    #homepage #modal-btn:hover {
       background: #3f43ca; }
+
+#blog {
+  background-image: url(../assets/blog.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #blog h1 {
+    color: #fff;
+    /*font-family: $body-font;*/ }
+  #blog .faded-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1.5rem 0; }
+
+#events {
+  background-image: url(../assets/events.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #events h1 {
+    color: #fff;
+    /*font-family: $body-font;*/ }
+  #events .faded-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1.5rem 0; }
+
+#consulting {
+  background-image: url(../assets/consulting.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #consulting h1 {
+    color: #fff;
+    /*font-family: $body-font;*/ }
+  #consulting .faded-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1.5rem 0; }
+
+#podcast {
+  background-image: url(../assets/podcast.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #podcast h1 {
+    color: #fff;
+    /*font-family: $body-font;*/ }
+  #podcast .faded-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1.5rem 0; }
+
+#speaking {
+  background-image: url(../assets/speaking.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #speaking h1 {
+    color: #fff;
+    /*font-family: $body-font;*/ }
+  #speaking .faded-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1.5rem 0; }
+
+#contact {
+  background-image: url(../assets/contact.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center; }
+  #contact h1 {
+    color: #fff;
+    /*font-family: $body-font;*/ }
+  #contact .faded-background {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem 1.5rem 0; }
 
 /*** SECTIONS ***/
 section {
@@ -190,28 +264,5 @@ footer {
       color: #bb6115; }
 
 /*** Page header styles***/
-#blog {
-  background-image: url(../assets/blog.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
-  #blog h1 {
-    color: #fff;
-    /*font-family: $body-font;*/ }
-  #blog .faded-background {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem 1.5rem 0; }
-
-#events {
-  background-image: url(../assets/events.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center; }
-  #events h1 {
-    color: #fff;
-    /*font-family: $body-font;*/ }
-  #events .faded-background {
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 1rem 1.5rem 0; }
 
 /*# sourceMappingURL=main.css.map */
